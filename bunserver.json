@@ -1,0 +1,53 @@
+{
+  "Fastfood": [
+    {
+      "Id": 1,
+      "name": "I've got buns hun",
+      "price": 109,
+      "image": "https://max-images.futureordering.com/images/product/13297/E39D3317D830437B15E03EFD99E9A7A7D/326x303.PNG"
+    },
+    {
+      "Id": 2,
+      "name": "Been there, bun that",
+      "price": 109,
+      "image": "https://max-images.futureordering.com/images/product/13295/0137F814A3DEF2C0271B6702C284721FD/326x303.PNG"
+    },
+    {
+      "Id": 3,
+      "name": "Girls just wanna have bun",
+      "price": 109,
+      "image": "https://max-images.futureordering.com/images/product/13302/DA3AD0B598EAECC05310647605D3197BD/326x303.PNG"
+    },
+    {
+      "Id": 4,
+      "name": "I got beef with you",
+      "price": 109,
+      "image": "https://max-images.futureordering.com/images/product/6989/A6806218F31180F908FD0CE88C1F4C4CD/652x606.PNG"
+    },
+    {
+      "Id": 5,
+      "name": "Loaded bun",
+      "price": 109,
+      "image": "https://max-images.futureordering.com/images/product/7625/714401D2005B43F533201F87242A16C1D/326x303.PNG"
+    },
+    {
+      "Id": 6,
+      "name": "Fries before guys",
+      "price": 59,
+      "image": "https://max-images.futureordering.com/images/product/11548/A3696794DF49D1F710D40FEBB395A661D/326x303.PNG"
+    },
+    {
+      "Id": 7,
+      "name": "Time fries when im with you",
+      "price": 59,
+      "image": "https://max-images.futureordering.com/images/product/12915/99678F0625F72D0F797CBABE4851E840D/326x303.PNG"
+    }
+  ],
+  "Cart": [
+    {
+      "Name": "I got beef with you",
+      "Price": 109,
+      "id": 1
+    }
+  ]
+}

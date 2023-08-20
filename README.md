@@ -1,70 +1,53 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Figma
 
-## Available Scripts
+https://www.figma.com/file/oTrFZQ6npsYRGSsV8JalH4/Bun-Drop?type=design&node-id=0-1&mode=design&t=N9tAZUUOSBZ19q91-0
 
-In the project directory, you can run:
+# scripts
 
-### `npm start`
+npm start
+npm run bunserver
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# project Bun-Drop
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Home
 
-### `npm test`
+Bun drop logo
+Order now knapp som tar en till meny sidan där man kan se menyn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Meny
 
-### `npm run build`
+5 st hamburgare och 2 st pommes
+Olika namn för burgarna och pommesen
+fyrkanting knapp som står "Add me" och en modal som dyker upp där användaren får information om att vald item läggs till i dennes cart.
+Knapp som tar användaren till cart sidan
+bundrop logo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Cart
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Användaren kan se vad denne har beställt som att välja att ta bort eventuell item om så önskas
+en knapp för att kunna gå tillbaka och se menyn
+en knapp som tar användaren vidare till payment sidan
+Items som användaren har lagt till adderas och den totala summan visas
+en Remove knapp där användaren kan väja att ta bort vald item
+En text som står Cart
+Om användaren inte har något i sin cart kan denne inte gå vidare till payment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Payment
 
-### `npm run eject`
+En text med Person details efterfrågas så som
+namn, husnummer,adress,stad.
+bild med pointer på swish
+om användaren väljer swish dyker en fält upp där användaren måste ange sitt telefonnummer¨
+en bild på visa med pointer där användaren måste ange sitt kortnummer samt cvc kod
+Om fälten inte är ifyllda får navändaren upp en text som meddelar användaren att alla fält måste vara ifyllda för att kunna gå vidare.
+En Pay knapp som tar användaren till Bekräftelse sidan ''Confirmation''
+När användaren dirigeras till bekräftelsesidan raderas innehållet från databasen.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Confirmation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Text som bekräftar att beställningen är påväg "Santa's coming early this year"
+Text som anger ungefärlig tid på kommande leverans "Estimated time for your delivery:"
+Text som anger beräknad leverans "19.00"
+Knapp som står back to home sidan
